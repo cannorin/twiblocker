@@ -7,6 +7,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>twiblocker</RootNamespace>
     <AssemblyName>twiblocker</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,16 +26,16 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="CoreTweet">
-      <HintPath>packages\CoreTweet.0.6.1.267\lib\net40\CoreTweet.dll</HintPath>
-    </Reference>
-    <Reference Include="FSharp.Core">
-      <HintPath>packages\FSharp.Core.3.1.2.5\lib\net40\FSharp.Core.dll</HintPath>
+      <HintPath>..\packages\CoreTweet.0.6.1.267\lib\net45\CoreTweet.dll</HintPath>
     </Reference>
     <Reference Include="Suave">
-      <HintPath>packages\Suave.1.0.0\lib\net40\Suave.dll</HintPath>
+      <HintPath>..\packages\Suave.1.0.0\lib\net40\Suave.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.Core">
+      <HintPath>..\packages\FSharp.Core.4.0.0.1\lib\net40\FSharp.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
