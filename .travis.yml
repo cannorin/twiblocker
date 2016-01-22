@@ -1,0 +1,7 @@
+language: csharp
+
+solution: twiblocker.sln 
+
+mono:
+    - latest
+
