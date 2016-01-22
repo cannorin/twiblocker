@@ -24,18 +24,17 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
-    <Reference Include="FSharp.Core" />
-    <Reference Include="Nancy">
-      <HintPath>packages\Nancy.1.4.3\lib\net40\Nancy.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="CoreTweet">
       <HintPath>packages\CoreTweet.0.6.1.267\lib\net40\CoreTweet.dll</HintPath>
     </Reference>
-    <Reference Include="Nancy.Hosting.Self">
-      <HintPath>packages\Nancy.Hosting.Self.1.4.1\lib\net40\Nancy.Hosting.Self.dll</HintPath>
+    <Reference Include="FSharp.Core">
+      <HintPath>packages\FSharp.Core.3.1.2.5\lib\net40\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Suave">
+      <HintPath>packages\Suave.1.0.0\lib\net40\Suave.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
