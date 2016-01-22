@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "twiblocker", "twiblocker.fsproj", "{78335092-37AD-4805-BB84-19FB905130AF}"
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "twiblocker", "src\twiblocker.fsproj", "{78335092-37AD-4805-BB84-19FB905130AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
